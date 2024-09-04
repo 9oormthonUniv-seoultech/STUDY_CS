@@ -33,7 +33,7 @@
 
 - 파일명은 모두 영문 소문자로 작성한다.(공백은 '_'으로 채운다)
 - 맨앞에 category를 포함해서 작성한다.
-- 예) CPU 스케줄링 알고리즘 ->  os_cpu_scheduling_and_algorithm.md
+- 예) CPU 스케줄링 알고리즘 -> os_cpu_scheduling_and_algorithm.md
 - 해당 문서를 다시 봤을 때, 추가적인 검색의 비용이 들지 않도록 쉽고 단순하게 작성한다.
 - 제목이 길어져도 이해를 우선시하여 작성한다.
 
