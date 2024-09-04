@@ -1,4 +1,4 @@
-# 기술 면접을 위한 CS 스터디
+# 기술 면접을 위한 CS 스터디 
 
 [![Since](https://img.shields.io/badge/since-2024.09.04-333333.svg?style=flat-square)](https://github.com/9oormthonUniv-seoultech/STUDY_CS)
 
@@ -27,7 +27,7 @@
 * [데이터베이스]()
 * [자료구조]()
 
-## 컨벤션 규칙 🤙
+## 컨벤션 규칙 
 
 ### 마크다운 파일명 작성 방법
 
@@ -53,3 +53,9 @@ CPU 스케줄링 알고리즘
 예) rename: [OS] 이름 수정
 예) fix: [OS] 오류 처리 
 ```
+
+## 멤버 소개 
+
+|[![](https://github.com/Changha-dev.png?width=200px)](https://github.com/Changha-dev)|[![](https://github.com/ej070961.png?width=200px)](https://github.com/ej070961) |[![](https://github.com/Geonheu.png?width=200px)](https://github.com/Geonheu) | [![](https://github.com/sooieese.png?width=200px)](https://github.com/sooieese)|
+|:---:|:---:|:---:|:---:|
+| 창하 | 은지 | 건희 | 수진 |
