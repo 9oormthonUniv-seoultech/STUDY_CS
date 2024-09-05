@@ -54,6 +54,17 @@ CPU 스케줄링 알고리즘
 예) fix: [OS] 오류 처리 
 ```
 
+### PR Convention
+
+```
+
+PR 제목 : [자신 이름] 주제명
+PR 내용 : 템플릿 양식에 맞춰서 
+
+예) PR 제목 : [창하] 네트워크의 기초
+
+```
+
 ## 멤버 소개 
 
 |[![](https://github.com/Changha-dev.png?width=200px)](https://github.com/Changha-dev)|[![](https://github.com/ej070961.png?width=200px)](https://github.com/ej070961) |[![](https://github.com/Geonheu.png?width=200px)](https://github.com/Geonheu) | [![](https://github.com/sooieese.png?width=200px)](https://github.com/sooieese)|
