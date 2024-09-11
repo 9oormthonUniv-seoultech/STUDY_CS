@@ -62,3 +62,8 @@ Access to XMLHttpRequest at '외부 사이트' from origin '내가 접속한 사
 blocked by CORS policy: No 'Access-Control-Allow-Origin' header is
 present on the requested resource
 ```
+
+### 예상 면접 질문
+1. 동일 출처 정책(SOP)이란 무엇이며, 필요성에 대해 설명해주세요.
+2. CORS의 개념과 필요성에 대해 설명해주세요.
+3. CORS의 동작 원리와 이를 통해 다른 출처의 리소스에 안전하게 접근하는 방법을 설명해보세요.
