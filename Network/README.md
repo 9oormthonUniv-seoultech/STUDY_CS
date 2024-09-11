@@ -8,7 +8,7 @@
 
 * [x] [OSI 7계층]()
 
-* [ ] [TCP 의 연결 및 해제 과정 (3,4-way hands shaking)]()
+* [x] [TCP 의 연결 및 해제 과정 (3,4-way hands shaking)]()
 
 * [ ] [DNS + 웹 통신 흐름]()
 
