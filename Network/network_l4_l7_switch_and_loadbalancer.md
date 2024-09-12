@@ -48,7 +48,7 @@
 4. LB는 최적의 서비스 서버를 내부 알고리즘을 통하여 선별한 후 요청을 전송하고, 서버 작업 결과를 LB에게 전송한다.
 5. 전달 받은 결과를 LB를 통해 클라이언트에게 전송한다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/be0198d7-dcc4-468c-b22d-abd7eefc4914/eceee738-4e71-46a6-8440-e848d0cb2eb6/image.png)
+![image.png](./img/network_loadbalancer_mechanism.png)
 
 VIP(Virtual IP) 가상 아이피 : 장비가 2대가 있고 각각 IP를 가지고 있으면 패킷을 어디에 전송해야할지 모르기 때문에 가상 IP를 사용한다.
 
@@ -59,3 +59,8 @@ VIP(Virtual IP) 가상 아이피 : 장비가 2대가 있고 각각 IP를 가지�
 1. L4 스위치와 L7 스위치의 차이는 무엇인가?
 2. 로드밸런서의 방법 중 서버의 가중치에 따라 요청을 덜 분배하기도, 더 분배하기도 하는 방법은 무엇인가?
 3. 로드밸런서를 사용하는 이유는?
+
+### 참고자료
+
+- [https://velog.io/@corone_hi/로드-밸런서-Load-Balancer](https://velog.io/@corone_hi/%EB%A1%9C%EB%93%9C-%EB%B0%B8%EB%9F%B0%EC%84%9C-Load-Balancer)
+- https://run-it.tistory.com/44
