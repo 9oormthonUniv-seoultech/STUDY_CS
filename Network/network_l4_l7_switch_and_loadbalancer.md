@@ -48,7 +48,7 @@
 4. LB는 최적의 서비스 서버를 내부 알고리즘을 통하여 선별한 후 요청을 전송하고, 서버 작업 결과를 LB에게 전송한다.
 5. 전달 받은 결과를 LB를 통해 클라이언트에게 전송한다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/be0198d7-dcc4-468c-b22d-abd7eefc4914/eceee738-4e71-46a6-8440-e848d0cb2eb6/image.png)
+![image.png](./img/network_loadbalancer_mechanism.png)
 
 VIP(Virtual IP) 가상 아이피 : 장비가 2대가 있고 각각 IP를 가지고 있으면 패킷을 어디에 전송해야할지 모르기 때문에 가상 IP를 사용한다.
 

@@ -6,7 +6,7 @@ DNS (Domain Name System) : 인터넷 전화번호부. 도메인 이름과 IP주�
 
 ### DNS 동작 방식
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/be0198d7-dcc4-468c-b22d-abd7eefc4914/613a94ae-9fa6-4f86-b3c5-c9969f2444ba/image.png)
+![image.png](./img/network_dns_mechanism.png)
 
 ### DNS 서버의 종류
 
@@ -19,7 +19,7 @@ DNS (Domain Name System) : 인터넷 전화번호부. 도메인 이름과 IP주�
 
 ### 작동 방식
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/be0198d7-dcc4-468c-b22d-abd7eefc4914/f7236105-dcf0-415d-86a5-1558bcac5167/image.png)
+![image.png](./img/network_web_communication_flow.png)
 
 1. 사용자가 브라우저에 도메인 이름을 입력한다.
 2. DNS서버에서 사용자가 입력한 Domain name을 검색하고, 매핑되는 IP주소를 찾는다. 사용자가 입력한 URL 정보와 함께 리턴한다.
@@ -32,7 +32,7 @@ DNS (Domain Name System) : 인터넷 전화번호부. 도메인 이름과 IP주�
 
 DHCP (Dynamic Host Configuration Protocol)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/be0198d7-dcc4-468c-b22d-abd7eefc4914/25586c33-8223-487a-addb-f837d658795e/image.png)
+![image.png](./img/network_dhcp_mechanism.png)
 
 - 호스트의 IP주소와 TCP/IP 설정을 클라이언트에 의해 자동으로 제공하는 응용 계층 프로토콜
   → 사용자는 DHCP 서버에서 자신의 IP 주소, 가장 가까운 라우터의 IP 주소, 가장 가까운 DNS 서버의 주소를 받는다.
