@@ -85,10 +85,7 @@ cpu가 각 프로세스들을 구분할 수 있어야 관리가 가능
 | 정의 | 특정 프로세스에 대한 전체적인 정보를 담은 데이터 | CPU가 프로세스를 실행하기 위해 필요한 즉각적인 정보 |
 | 사용범위 | 프로세스 관리와 운영체제의 다양한 작업에서 사용 | 주로 context switching 시에 사용 |
 | 저장소 | PCB에 저장 | PCB에 저장 |
-| 주요내용 | Process MetaData
-( ProcessID, Process State, Priority, CPU usage, Memory usage, Owner) | - CPU레지스터 값 
-- 프로그램 카운터 : 현재 실행 중인 명령어의 주소
-- 스택 포인터 : 함수 호출 시 필요한 스택 정보 |
+| 주요내용 | Process MetaData |  CPU레지스터 값 ,프로그램 카운터 : 현재 실행 중인 명령어의 주소,  프로그램 카운터 : 현재 실행 중인 명령어의 주소,  스택 포인터 : 함수 호출 시 필요한 스택 정보 |
 |  |  | >> context는 메타데이터의 일부 |
 
 <br>
