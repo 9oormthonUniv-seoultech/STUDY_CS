@@ -12,7 +12,7 @@
 
 ## CPU 스케줄링이 필요한 상황
 
-![](/OS/img/os_cpu_schduling_status.png)
+![](/OS/img/os_cpu_scheduling_status.png)
 
 1. **프로세스가 실행 상태에서 대기 상태로 전환될 때**:
     - 예: 프로세스가 **I/O 작업을 요청**하면, CPU를 사용하지 않으므로 **다른 프로세스**에게 CPU를 넘겨야 합니다.
@@ -175,5 +175,5 @@ Quantum = 프로세스가 라운드 로빈 방식으로 CPU를 사용할 수 있
 
 ## 참고 자료
 
-- https://code-lab1.tistory.com/45
-- [https://imbf.github.io/computer-science(cs)/2020/10/18/CPU-Scheduling.html](https://imbf.github.io/computer-science(cs)/2020/10/18/CPU-Scheduling.html)
+- [[운영체제] CPU 스케줄링 알고리즘 정리 및 요약 | FCFS, SJF, Round Robin](https://code-lab1.tistory.com/45)
+- [[Operating System - Chapter 5] CPU 스케줄링](https://imbf.github.io/computer-science(cs)/2020/10/18/CPU-Scheduling.html)
