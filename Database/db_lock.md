@@ -20,7 +20,7 @@
 
 **non-serial schedule 비직렬 스케쥴**
 
-트랜잭션이 동시에 실행될 수 있는 스케줄이다. 하나의 트랜잭션이 완료되기 전에 다른 트랜잭션의 연산이 실행된다. 
+트랜잭션이 동시에 실행될 수 있는 스케줄이다. 
 
 ![비직렬스케쥴](./img/database_interleaved_serializable_schedule.png)
 
