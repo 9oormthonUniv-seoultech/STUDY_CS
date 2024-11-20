@@ -90,8 +90,8 @@ unlock연산 : 트랜잭션이 데이터에 대한 독점권을 반납하기 위
 
 ![낙관적 락](./img/database_optimistic_lock.png)
 
-- transaction A가 id2번의 데이터를 읽는다. 버전 번호는 **`1`**로 기록되어 있다.
-- transaction B가 같은 데이터를 읽는다. 버전 번호는 **`1`**로 기록되어 있음
+- transaction A가 id 2번의 데이터를 읽는다. 버전 번호는 `1`로 기록되어 있다.
+- transaction B가 같은 데이터를 읽는다. 버전 번호는 `1`로 기록되어 있음
 - transation A가 데이터를 **Karol1**로 수정하고, 해당 데이터에 대한 버전번호가 `2`로 업데이트 된다.
 - transaction B가 데이터를 `Karol2`로 수정하려고 시도한다.
     - 하지만, transaction B가 참조한 버전 번호 `1`이 `최신버전 2`와 다름을 확인. 충돌이 발생했으므로 transaction B의 수정 요청이 실패하고 작업이 **롤백**된다.
