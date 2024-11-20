@@ -170,4 +170,4 @@ Lock연산을 통해 데이터를 잠그는 범위를 설정할 수 있다.
 
 ### References
 
-![비관적,낙관적 락](https://sabarada.tistory.com/175)
+[비관적,낙관적 락](https://sabarada.tistory.com/175)
