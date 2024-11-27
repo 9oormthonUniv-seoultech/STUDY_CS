@@ -1,4 +1,4 @@
-### 조인이 필요한 이유
+## 조인이 필요한 이유
 
 데이터베이스에서는 데이터를 효율적으로 관리하기 위해 데이터를 여러 테이블에 나누어 저장한다. 하지만 특정 정보를 조회할 때 하나의 테이블만으로는 필요한 데이터를 모두 얻을 수 없는 경우가 많다. 이럴 때 여러 테이블을 연결하여 관련된 데이터를 조회하기 위해 조인을 사용한다. 
 
@@ -12,7 +12,7 @@
 <br> 
 조인은 크게 Inner Join, Outer Join으로 나뉜다. 
 
-### inner join
+## inner join
 
 ![innerJoin](./img/db_innerjoin_diagram.png)
 
@@ -38,13 +38,13 @@ TableA와 TableB에서 상품코드 값이 같은(1,3,4) 데이터만 조회됨
 
 <br>
 
-### outer join
+## outer join
 
 outer join은 하나로 합칠 두 테이블에서 공통 데이터 외에 어느 한 테이블에만 존재하는 데이터도 함께 출력하는 방법이다. 
 
 데이터가 한 쪽에만 존재할 때 어느 테이블을 기준으로 삼을지에 따라 left outer join, right outer join, full outer join으로 나뉜다. 
 
-#### left outer join
+### left outer join
 
 왼쪽 테이블을 기준으로 조인하는 방법
 
@@ -70,7 +70,7 @@ on A.상품코드 = B.상품코드
 
 <br>
 
-#### right outer join
+### right outer join
 
 오른쪽 테이블을 기준으로 조인하는 방법
 
@@ -94,7 +94,7 @@ ON A.상품코드 = B.상품코드
 
 <br>
 
-#### full outer join
+### full outer join
 
 양쪽 테이블의 모든 데이터를 포함하는 방법
 
@@ -128,4 +128,4 @@ ON A.상품코드 = B.상품코드
 
 ### reference
 
-![join연산 테이블 예시](https://velog.io/@newdana01/Database-%ED%85%8C%EC%9D%B4%EB%B8%94-%EC%A1%B0%EC%9D%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
+[join연산 테이블 예시](https://velog.io/@newdana01/Database-%ED%85%8C%EC%9D%B4%EB%B8%94-%EC%A1%B0%EC%9D%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
