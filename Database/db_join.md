@@ -21,9 +21,11 @@
 ```
 //조회할 칼럼들
 SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고수량
+
 // 결합할 두 테이블 이름
 FROM TableA as A
 INNER JOIN TableB as B
+
 // 결합 조건
 on A.상품코드 = B.상품코드 
 ```
