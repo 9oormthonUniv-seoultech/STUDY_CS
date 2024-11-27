@@ -4,7 +4,7 @@
 
  >예시
     
-    ![webexample](./img/db_join_web_example.png)
+![webexample](./img/db_join_web_example.png)
     
 >이 페이지에서 정보들을 한 화면에 보여주기 위해서는  `상품` 테이블의 정보(이름, 가격, 유효기간 등)와  `리뷰` 테이블의 해당 상품에 대한 리뷰 정보가 동시에 필요하다. 이 때 두 테이블을 조인하여 정보를 가져온다. 
 
